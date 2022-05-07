@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Space+Grotesk&display=swap');
+:root {
+    --Ycolor: #FFFF00;
+    --Y2color: #F8F184;
+    --Bcolor: #19587D;
+    --p-black-color: #000000;
+    --s-black-color: #0D0E09;
+    --P-gray-color: #C4C4C4;
+    --p-white-color: #FFFFFF;
+}
+
+
+/***font-family: 'Rajdhani', sans-serif;
+font-family: 'Space Grotesk', sans-serif;***/
+
+
+/**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 12px;
+    color: var(--p-white-color);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.home {
+    background: url('../Illustrations/Home/Bathome1.png');
+    height: 901px;
+}
+
+ul {
+    display: flex;
+    color: white;
+    margin-left: 50%;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    padding-top: 4%;
+}
+
+.md-6 {
+    margin-left: 10%;
+}
+
+.intro {
+    text-align: center;
+    color: white;
+    margin-top: 35%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.col-md-4 {
+    margin-left: 90%;
+}
+
+.pos {
+    margin-top: -50%;
+}
+
+.bat {
+    margin-left: 10%;
+}
+
+.scrol {
+    margin-left: 45%;
+}
+
+.text {
+    margin-left: 8%;
+    padding-top: 10%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.im1 {
+    margin-left: 7%;
+}
+
+.titleN {
+    margin-left: 8%;
+    padding-top: 10%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.play {
+    margin-left: 8%;
+}
+
+.contact {
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    padding-top: 10%;
+}
+
+.formulaire {
+    margin-left: 25%;
+    padding-top: 5%;
+}

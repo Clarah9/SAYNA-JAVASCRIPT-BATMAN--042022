@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Space+Grotesk&display=swap');
+:root {
+    --Ycolor: #FFFF00;
+    --Y2color: #F8F184;
+    --Bcolor: #19587D;
+    --p-black-color: #000000;
+    --s-black-color: #0D0E09;
+    --P-gray-color: #C4C4C4;
+    --p-white-color: #FFFFFF;
+}
+
+
+/***font-family: 'Rajdhani', sans-serif;
+font-family: 'Space Grotesk', sans-serif;***/
+
+
+/**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 12px;
+    color: var(--p-white-color);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.game {
+    background: url('../Illustrations/Game/Batgame1.png');
+    height: 901px;
+}
+
+ul {
+    display: flex;
+    color: white;
+    margin-left: 50%;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    padding-top: 4%;
+}
+
+.md-6 {
+    margin-left: 10%;
+}
+
+.intro {
+    margin-left: 10%;
+    color: white;
+    margin-top: 25%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.col-md-4 {
+    margin-left: 90%;
+}
+
+.pos {
+    margin-top: -30%;
+}
+
+.bat {
+    margin-left: 10%;
+}
+
+.scrol {
+    margin-left: 45%;
+}
